@@ -1,0 +1,135 @@
+.mainContainer {
+  margin: 0px;
+  height: 100%;
+}
+header { 
+  background-size: cover;
+  height: 200px;
+  width: 1247px;
+	background-position: center; 
+  background-color: #159797;
+  display: flex;
+  align-items: center;
+}
+#title {
+  font-family: "Stick no Bills";
+  margin-left: 100px;
+  margin-right: auto;
+}
+.datas {
+  font-family: "Stick No Bills";
+  margin-right: 100px;
+}
+
+.internalLinks {
+  align-self: flex-end;
+  background-color: #159797;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.internalLinks a{
+  text-decoration: none;
+  font-family: "Stick No Bills";
+  color: black;
+  font-size: 20px;
+}
+.main {
+  display: flex;
+  width: 100%;
+  //align-items: stretch;
+}
+aside {
+  height: 100%;
+  height: 2400px;
+  width: 20%;
+  background-color: #159797;
+  margin-bottom: -20px;
+}
+.asideLinks {
+  margin: 10px 0 0 10px;
+  line-height: 2;
+  font-family: "Stick No Bills";
+  font-size: 30px;
+  display: flex;
+  flex-flow: column wrap;
+}
+.asideLinks a {
+  color: lightgrey;
+}
+a:hover {
+  color: #7C9494;
+}
+
+.content {
+  background-color: #ABCECE;
+  margin-top: 0;
+  display: inline-block;
+  font-family: "Manrope";
+  //width: 1043px;
+  width: 80%;
+  height: 2400px;
+}
+.first {
+  margin-top: 0%;
+  padding-top: 1px;
+}
+p, ul {
+  //font-family: "Josefin Sans";
+  font-size: 20px;
+  color: #222;
+  //margin: 0 0 0 10px;
+  margin-left: 10px;
+}
+.quote {
+  margin: 40px 0;
+  font-family: "Plaster";
+  color: white;
+  font-size: 32px;
+  height: 180px;
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  //justify-content: center;
+  position: relative;
+  padding-left: 50px;
+}
+.quote .mark {
+  color: white;
+  position: absolute;
+  bottom: 105px;
+  left: 0;
+  font-size: 120px;
+  transform: rotateX(180deg);
+  transform: rotateZ(180deg);
+}
+.quote .quoteText {
+  padding: 20px;
+}
+
+/*.quote::before {
+  content: '”';
+  color: pink;
+  position: absolute;
+  top: 0;
+}*/
+h2 {
+  margin: 30px 0;
+  margin-left: 10px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+h3 {
+  margin-left: 10px;
+  font-weight: 900;
+}
+h4 {
+  margin-left: 10px;
+  font-family: "Merriweather";
+  font-size: 12px;
+  margin-top: -10px;
+}
+.footer {
+  border-top: 4px solid black;
+}
